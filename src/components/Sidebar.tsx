@@ -95,7 +95,7 @@ export default function Sidebar({ activeSection, isMobileOpen, onClose }: Sideba
           <div className="p-8 flex justify-center items-center border-b border-gray-100">
             <img 
               /* FIX: Changed ./ to / to ensure path is always from root */
-              src="/ASP-Superhome_ASPoriginalblue-swirlspdf_4557.png"
+              src="https://s3-eu-west-1.amazonaws.com/businessautomation/Proposal_Logos/ASP-Remodeling_ASP-REM-logo-whte-bg---jpg-HD_5627.png"
               alt="ASP Superhome" 
               className="w-full h-auto object-contain"
             />

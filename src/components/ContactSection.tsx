@@ -52,7 +52,7 @@ export default function LicensesSection({ isDynamicView = false }: LicensesSecti
       setLoading(true);
       setError(null);
       try {
-        const response = await fetch(`https://pdf-converter-api-1eeh.onrender.com/api/result/${id}?service=window`);
+        const response = await fetch(`https://pdf-converter-api-1eeh.onrender.com/api/result/${id}?service=remodel`);
         if (!response.ok) throw new Error('Data not found');
         const data = await response.json();
         if (data.success && data.image_urls) {

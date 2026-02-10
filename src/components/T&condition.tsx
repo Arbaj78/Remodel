@@ -5,7 +5,7 @@ export default function TermsSection() {
     <div>
      
     <div>
- <section id="terms" className="bg-white">
+ <section id="page-4862654" className="bg-white">
       {/* Terms Header */}
       <div className="bg-[#214270] py-12 relative overflow-hidden">
         <div className="absolute inset-0 bg-[#214270]/80" />
